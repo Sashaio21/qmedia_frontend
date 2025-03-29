@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Главная</title>
+</head>
+<body>
+    <!-- Шапка -->
+    <div class="container header">
+            <div class="burger col">
+                <span class="line-burger"></span>
+                <span class="line-burger"></span>
+                <span class="line-burger"></span>
+            </div>
+            <div class="navigation row">
+                <div class="page-navigation row">
+                    <p>О компании</p>
+                    <p>Услуги</p>
+                    <p>Доставка</p>
+                    <p>Оплата</p>
+                    <p>Контакты</p>
+                </div>
+                <div class="contacts row">
+                    <div class="row">
+                        <a href="tel:+375 (29)-211-93-26">+375 (29)-211-93-26</a>
+
+                        <img style="width: 20px; height: 20px; margin-right: 20px;" src="assets/image/Vector.png">
+                        <p>+375 (29) 111-22-33</p>
+                    </div>
+                    <div class="row">
+                        <img style="width: 20px; height: 20px; margin-right: 20px;" src="assets/image/Vector.png">
+                        <p>+375 (29) 111-22-33</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-function row" >
+                <div class="row">
+                    <img style="margin-right: 12px;" src="assets/image/logo.png">
+                    <div >
+                        <p class="text-logo">Qmedia Market</p>
+                        <p class="description-logo">Интернет-магазин полезных вещей</p>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <input class="input-wrapper input-place" placeholder="Поиск по каталогу">
+                    <img class="input-wrapper search-icon" src="assets/image/search.png">
+                </div>
+                <img class="mobile-search" src="assets/image/search.png">
+            </div>
+    </div>
+
+    <!-- Основной блок -->
+    <div id="container" class=" col main">
+        <div class="swiper-container" style="overflow: visible; overflow: hidden;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="home_banner">
+                </div>
+                <div class="swiper-slide">
+                    <img class="home_banner">
+                </div>
+                <div class="swiper-slide">
+                    <img class="home_banner">
+                </div>
+            </div>
+        </div>   
+        <script src="https://unpkg.com/swiper@9.0.0/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+        <div style="display: flex; justify-content: center; gap: 10px; overflow: hidden; " class="container row">
+            <div class="category col">
+                <img src="assets/image/category_image.png" class="category_image">
+                <p class="small-title">Смартфоны</p>
+            </div>
+            <div class="category col">
+                <img src="assets/image/category_image.png" class="category_image">
+                <p class="small-title">Планшеты</p>
+            </div>
+            <div class="category col">
+                <img src="assets/image/category_image.png" class="category_image">
+                <p class="small-title">Ноутбуки</p>
+            </div>
+            <div class="category col">
+                <img src="assets/image/category_image.png" class="category_image">
+                <p class="small-title">Наушники и аудиотехника</p>
+            </div>
+            <div class="category col">
+                <img src="assets/image/category_image.png" class="category_image">
+                <p class="small-title">Телевизоры и видеотехника</p>
+            </div>
+            <div class="category col">
+                <img src="assets/image/category_image.png" class="category_image">
+                <p class="small-title">Бытовая техника</p>
+            </div> 
+        </div>
+        <div class="container feedback">
+            <div class="seo-content">
+                <p  style="font-size: 20px; font-weight: bold;">Qmedia Market – Интернет-магазин полезных вещей</p>
+                <p>Покупка товара проста только на первый взгляд. Нужно думать о том, как оформить доставку, кто соберет шкаф или установит кондиционер. В нашем магазине эти услуги уже продуманы. Думайте только о подборе товаров в каталоге. Для этого предлагаем комплексный подход — наша команда выполнит все задачи!</p>
+                <p>Qmedia Market — магазин полезных вещей для себя, дома, офиса и дачи. Здесь вы найдете товары под свои предпочтения: от аудиотехники и одежды до строительных материалов и велосипедов. Работаем с проверенными производителями с 2007 года. Доставляем товары точно в срок.</p>
+            </div>
+            <div class="form col">
+                <div>
+                    <p class="form-text">Имя *</p>
+                    <input class="input-place-form" placeholder="Екатерина">
+                </div>
+                <div>
+                    <p class="form-text">Телефон</p>
+                    <input class="input-place-form" placeholder="+375 ___ ___-__-__">
+                </div>
+                <div>
+                    <p class="form-text">Email *</p>
+                    <input class="input-place-form" placeholder="katya@mail.by">
+                </div>
+                <button class="btn-send">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <div style="width: 100%;background-color: #212529; color: #fff;">
+        <div class="container footer-block">
+            <div class="gap-element company-info">
+                <img class="image-logo-footer" src="assets/image/logo-full-white.png"></img>
+                <p class="text-info-company" style="font-size: 10px;">
+                    Юр. адрес: 220 123, г. Минск, ул. Старовиленская 100−4а
+                    Свидетельство о гос. регистрации номер 0191397
+                    (выдано Минским горисполкомом 14.10.2022)
+                </p>
+            </div>
+            <div class="info-footer">
+                <div class="gap-element">
+                    <p style="font-size: 14px ;font-weight: bold;" >Каталог</p>
+                    <ul na class="wrap-text no-bullets">
+                        <li class="text-info">Смартфоны</li>
+                        <li class="text-info">Планшеты</li>
+                        <li class="text-info">Ноутбуки</li>
+                        <li class="text-info">Наушники и аудиотехника</li>
+                        <li class="text-info">Телевизоры и видеотехника</li>
+                        <li class="text-info">Бытовая техника</li>
+                    </ul>
+                </div>
+                <div  class="gap-element">
+                    <p style="font-size: 14px ;font-weight: bold;">Информация</p>
+                    <ul class="no-bullets wrap-text">
+                        <li class="text-info">О компании</li>
+                        <li class="text-info">Услуги</li>
+                        <li class="text-info">Доставка</li>
+                        <li class="text-info">Оплата</li>
+                        <li class="text-info">Контакты</li>
+                    </ul>
+                </div>
+                <div class="gap-element">
+                    <p style="font-size: 14px ; font-weight: bold;">Связаться с нами</p>
+                    <ul class="no-bullets">
+                        <div style="width: 100%;" class="row">
+                            <img style="width: 14px; height:  14px; margin-right: 20px;" src="assets/image/phone.png">
+                            <p class="text-info">+375 (29) 111-22-33</p>
+                        </div>
+                        <div style="width: 100%;" class="row">
+                            <img style="width: 14px; height: 14px; margin-right: 20px;" src="assets/image/phone.png">
+                            <p class="text-info">+375 (29) 111-22-33</p>
+                        </div>
+                        <div style="width: 100%;" class="row">
+                            <img style="width: 14px; height: 14px; margin-right: 20px;" src="assets/image/email.png">
+                            <p class="text-info">info@qmedia.by</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
