@@ -4,7 +4,7 @@
 
 ## Ссылка на проект
 
-Быстрый просмотр: <a href="https://send-email-e3kf.onrender.com" target="_blank">Ссылка на проект</a>.
+Быстрый просмотр: <a href="https://qmedia-frontend.vercel.app/" target="_blank">Ссылка на проект</a>.
 
 ## Для чего создавался проект
 
